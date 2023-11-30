@@ -1,8 +1,8 @@
 import os.path
 import pickle
-#import networkx.drawing.nx_pydot
+import networkx.drawing.nx_pydot
 from src import layering, type_conversions
-#import networkx as nx
+import networkx as nx
 #import pydot
 
 

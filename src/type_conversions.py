@@ -1,5 +1,5 @@
 from src import graph, layering
-#import networkx as nx
+import networkx as nx
 #import igraph as ig
 
 

@@ -3,7 +3,7 @@ import time
 from src import graph, vis
 import re
 import random
-#import networkx as nx
+import networkx as nx
 
 
 def create_bfs_layered_graph(s_g):  # DEPRECATED
