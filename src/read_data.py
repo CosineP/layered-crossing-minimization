@@ -1,9 +1,9 @@
 import os.path
 import pickle
-import networkx.drawing.nx_pydot
+#import networkx.drawing.nx_pydot
 from src import layering, type_conversions
-import networkx as nx
-import pydot
+#import networkx as nx
+#import pydot
 
 
 def read(filepath, w=4, c=2, layer_assignments=None):

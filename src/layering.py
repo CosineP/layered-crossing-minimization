@@ -3,7 +3,7 @@ import time
 from src import graph, vis
 import re
 import random
-import networkx as nx
+#import networkx as nx
 
 
 def create_bfs_layered_graph(s_g):  # DEPRECATED
@@ -153,7 +153,7 @@ def run_good_graph_tests(s_g):
     return [i for i in range(1, len(s_g)+1) if not seen[i]]
 
 
-def create_layered_graph_from_directed_nx_graph(nxg: nx.Graph, w, c):
+def create_layered_graph_from_directed_nx_graph(nxg, w, c):
     simple_g = {}
     names = {nname: i for i, nname in enumerate(nxg)}
     for node in nxg:

@@ -3,6 +3,7 @@ import pickle
 import random
 from typing import Tuple
 from src.helpers import *
+from typing import Tuple
 
 
 class LayeredNode:

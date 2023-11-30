@@ -1,7 +1,7 @@
-import cairo
+#import cairo
 from src import graph
 import math
-import altair as alt
+#import altair as alt
 import os
 # from altair_saver import save
 
